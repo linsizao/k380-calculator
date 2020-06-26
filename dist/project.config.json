@@ -1,0 +1,32 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "k380-calculator",
+  "description": "k380-calculator",
+  "appid": "wx3a5cc4e1c91ef124",
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": false,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useCompilerModule": false
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "libVersion": "2.11.2",
+  "condition": {}
+}

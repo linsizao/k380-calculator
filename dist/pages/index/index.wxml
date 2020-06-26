@@ -1,0 +1,24 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="calculator">
+        <view class="viewer" style="grid-area: viewer" bindtap="toBlog" data-e-tap-so="this">{{viewer}}</view>
+        <button style="grid-area: ac" bindtouchstart="clear">AC</button>
+        <button style="grid-area: plus-minus" bindtouchstart="calculateSign">±</button>
+        <button style="grid-area: percent" bindtouchstart="calculatePercent">%</button>
+        <button style="grid-area: add" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="+">+</button>
+        <button style="grid-area: subtract" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="-">-</button>
+        <button style="grid-area: multiply" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="×">×</button>
+        <button style="grid-area: divide" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="÷">÷</button>
+        <button style="grid-area: equal" bindtouchstart="calculate">=</button>
+        <button style="grid-area: number-1" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{1}}">1</button>
+        <button style="grid-area: number-2" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{2}}">2</button>
+        <button style="grid-area: number-3" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{3}}">3</button>
+        <button style="grid-area: number-4" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{4}}">4</button>
+        <button style="grid-area: number-5" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{5}}">5</button>
+        <button style="grid-area: number-6" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{6}}">6</button>
+        <button style="grid-area: number-7" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{7}}">7</button>
+        <button style="grid-area: number-8" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{8}}">8</button>
+        <button style="grid-area: number-9" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{9}}">9</button>
+        <button style="grid-area: number-0" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a="{{0}}">0</button>
+        <button style="grid-area: dot" bindtouchstart="append" data-e-touchstart-so="this" data-e-touchstart-a-a=".">.</button>
+    </view>
+</block>
