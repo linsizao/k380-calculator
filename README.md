@@ -5,6 +5,7 @@
 
 ```
 npm install
+npm install -g @tarojs/cli
 ```
 
 ## 启动服务
