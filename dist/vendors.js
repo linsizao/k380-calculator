@@ -1,9 +1,9 @@
 (wx["webpackJsonp"] = wx["webpackJsonp"] || []).push([["vendors"],{
 
-/***/ "./node_modules/_@tarojs_taro-weapp@2.2.9@@tarojs/taro-weapp/dist/index.js":
-/*!*********************************************************************************!*\
-  !*** ./node_modules/_@tarojs_taro-weapp@2.2.9@@tarojs/taro-weapp/dist/index.js ***!
-  \*********************************************************************************/
+/***/ "./node_modules/@tarojs/taro-weapp/dist/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@tarojs/taro-weapp/dist/index.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14,7 +14,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var taro = __webpack_require__(/*! @tarojs/taro */ "./node_modules/_@tarojs_taro@2.2.9@@tarojs/taro/dist/index.esm.js");
+var taro = __webpack_require__(/*! @tarojs/taro */ "./node_modules/@tarojs/taro/dist/index.esm.js");
 
 function _typeof(obj) {
   "@babel/helpers - typeof";
@@ -3688,29 +3688,29 @@ initNativeApi(Taro);
 exports.Taro = Taro;
 exports.default = Taro;
 //# sourceMappingURL=index.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../_webpack@4.41.6@webpack/buildin/global.js */ "./node_modules/_webpack@4.41.6@webpack/buildin/global.js"), __webpack_require__(/*! ./../../../_process@0.11.10@process/browser.js */ "./node_modules/_process@0.11.10@process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
-/***/ "./node_modules/_@tarojs_taro-weapp@2.2.9@@tarojs/taro-weapp/index.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/_@tarojs_taro-weapp@2.2.9@@tarojs/taro-weapp/index.js ***!
-  \****************************************************************************/
+/***/ "./node_modules/@tarojs/taro-weapp/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@tarojs/taro-weapp/index.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(/*! ./dist/index */ "./node_modules/_@tarojs_taro-weapp@2.2.9@@tarojs/taro-weapp/dist/index.js").default;
+module.exports = __webpack_require__(/*! ./dist/index */ "./node_modules/@tarojs/taro-weapp/dist/index.js").default;
 module.exports.default = module.exports;
 
 /***/ }),
 
-/***/ "./node_modules/_@tarojs_taro@2.2.9@@tarojs/taro/dist/index.esm.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/_@tarojs_taro@2.2.9@@tarojs/taro/dist/index.esm.js ***!
-  \*************************************************************************/
+/***/ "./node_modules/@tarojs/taro/dist/index.esm.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@tarojs/taro/dist/index.esm.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6473,14 +6473,14 @@ exports.memo = memo;
 exports.getIsUsingDiff = getIsUsingDiff;
 exports.setIsUsingDiff = setIsUsingDiff;
 //# sourceMappingURL=index.esm.js.map
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../_webpack@4.41.6@webpack/buildin/global.js */ "./node_modules/_webpack@4.41.6@webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/_process@0.11.10@process/browser.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/_process@0.11.10@process/browser.js ***!
-  \**********************************************************/
+/***/ "./node_modules/process/browser.js":
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6675,7 +6675,7 @@ process.umask = function () {
 
 /***/ }),
 
-/***/ "./node_modules/_webpack@4.41.6@webpack/buildin/global.js":
+/***/ "./node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/

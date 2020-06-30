@@ -4,7 +4,7 @@
   "description": "k380-calculator",
   "appid": "wx3a5cc4e1c91ef124",
   "setting": {
-    "urlCheck": false,
+    "urlCheck": true,
     "es6": false,
     "postcss": false,
     "preloadBackgroundData": false,
@@ -22,7 +22,8 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "useCompilerModule": false
+    "useCompilerModule": false,
+    "userConfirmedUseCompilerModuleSwitch": false
   },
   "compileType": "miniprogram",
   "simulatorType": "wechat",

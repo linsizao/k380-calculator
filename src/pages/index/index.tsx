@@ -22,6 +22,18 @@ export default class Index extends Component {
     })
   }
 
+  onShareAppMessage (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      // console.log(res.target)
+    }
+    return {
+      title: 'k380-calculator',
+      path: '/pages/index/index'
+    }
+  }
+
+
   // 判断是否有运算符
   isOperator(character) {
     return ['+', '-', '×', '÷'].includes(character)
