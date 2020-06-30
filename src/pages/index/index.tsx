@@ -125,10 +125,15 @@ export default class Index extends Component {
         break;
     }
 
-    const result = parseFloat(computed(format).toFixed(9)).toString() === 'NaN'
-      ? '0'
-      : parseFloat(computed(format).toFixed(9)).toString()
-    return result
+    try {
+      const result = parseFloat(computed(format).toFixed(9)).toString() === 'NaN'
+        ? '0'
+        : parseFloat(computed(format).toFixed(9)).toString()
+      return result
+    } catch (error) {
+      return format
+    }
+
   }
 
   // 点击 +/-

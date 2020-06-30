@@ -188,8 +188,12 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
           format += '1';
           break;
       }
-      var result = parseFloat((0, _eval.computed)(format).toFixed(9)).toString() === 'NaN' ? '0' : parseFloat((0, _eval.computed)(format).toFixed(9)).toString();
-      return result;
+      try {
+        var result = parseFloat((0, _eval.computed)(format).toFixed(9)).toString() === 'NaN' ? '0' : parseFloat((0, _eval.computed)(format).toFixed(9)).toString();
+        return result;
+      } catch (error) {
+        return format;
+      }
     }
     // 点击 +/-
 
