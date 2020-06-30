@@ -98,7 +98,7 @@ export default class Index extends Component {
       })
     } else {
       this.setState({
-        // viewer: parseFloat(eval(result).toFixed(9)).toString()
+        // viewer: parseFloat(eval(result).toFixed(9)).toString() 
         viewer: this.result(viewer)
       })
 
